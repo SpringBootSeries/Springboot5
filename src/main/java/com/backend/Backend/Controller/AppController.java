@@ -3,7 +3,7 @@ import com.backend.Backend.model.Student;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-public class AppController {
+public class AppController  extends CRUDController<String, Student>{
     public AppController()
     {
         Student s1 = new Student("2020ICT47","Maleesha",23,"IT",3.66);

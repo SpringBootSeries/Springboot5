@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CRUDController {
-    private Map<K, T> objects = new HashMap<K, T>();
+public class CRUDController <K, d T>{
+    private Map<K, T> objects = new HashMap<>();
 
     public Map<K, T> getMap() {
         return objects;
